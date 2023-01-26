@@ -91,12 +91,9 @@
     filter: none;
     border-radius: 0;
     transition-property: filter, border-radius;
-    transition-duration: 1s;
 }
 
-.ex-7-img{
-    filter: none;
-    transition-property: filter;
+.ex-7-img, .ex-8-img{
     transition-duration: 3s;
 }
 
@@ -105,13 +102,15 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(), sepia();
+    filter: grayscale() saturate();
 }
 
 .ex-8-img:hover{
-    filter: sepia();
+    filter: sepia() saturate();
     border-radius: 20px; 
 }
+
+
 
 
 
