@@ -102,11 +102,11 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale() saturate();
+    filter: grayscale(.4) saturate(.6);
 }
 
 .ex-8-img:hover{
-    filter: sepia() saturate();
+    filter: sepia(.6) saturate(.4);
     border-radius: 20px; 
 }
 
@@ -115,11 +115,26 @@
 
 
 
-
+/*esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 1s;
 }
+
+.ex-9-img:hover{
+    filter: sepia() saturate();
+    border-radius: 20px;
+    width: 700px;
+    height: auto;
+}
+
+
+
+
+
+
+/*esercizio 10*/
 .ex-10-icon {
     font-size: 60px;
 }
